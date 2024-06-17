@@ -8,8 +8,8 @@ header {
   z-index: 99999;
 }
 header img {
-  width: 350px;
-  height: 55px;
+  width: 150px;
+  /* height: 55px; */
 }
 header a {
   margin-left: 30px;

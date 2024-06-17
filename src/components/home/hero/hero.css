@@ -1,21 +1,43 @@
 .hero {
-  background-image: url("../../../../public/images/banner.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.awssld {
+  height: 100%;
+}
+
+.awssld__content {
+  height: 100%;
+}
+
+.slide {
   height: 90vh;
   width: 100%;
 }
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hero .container {
-  padding-top: 15%;
+  padding-top: 10%;
 }
 .hero h1 {
-  color: #fff;
+  color: #3e4c66;
   font-size: 60px;
+  padding-bottom: 1%;
 }
 .hero p {
-  color: #fff;
+  color: #20252e;
   opacity: 0.8;
+  padding-bottom: 15%;
 }
 form {
   background-color: #fff;

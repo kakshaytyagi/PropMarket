@@ -1,0 +1,21 @@
+/* Default styles for larger screens (e.g., desktops) */
+.content.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    /* Styles for tablets */
+    .content.grid3 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Styles for mobile phones */
+    .content.grid3 {
+      grid-template-columns: 1fr;
+    }
+  }
+  
